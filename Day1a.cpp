@@ -11,3 +11,16 @@ LEARNING:
 //PRACTICE:
 
 //CP PROBLEM 1 : Add Two Numbers.
+
+
+#include<iostream>
+using namespace std;
+int main(){
+    int Number1 , Number2;
+    cout<<"Enter First Number: ";
+    cin>> Number1;
+    cout<<"Enter Second Number: ";
+    cin>> Number2;
+    cout<<"Sum Of Two Number: "<< Number1 + Number2;
+return 0;
+}
