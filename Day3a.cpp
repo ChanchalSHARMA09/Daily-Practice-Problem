@@ -10,4 +10,16 @@ Learning:
 
 //Practice:
 
-// CP Problem 1 : Factorial of a number (using recursion).
+// CP Problem 1 : print sqares of first 5 natural no. using function.
+#include<iostream>
+using namespace std;
+int squareOfNum(int a){
+    int square=a*a;
+     return square;
+}
+int main(){
+  for(int i=1;i<=5;i++){
+    cout<<squareOfNum(i)<<endl;
+  }
+
+}
