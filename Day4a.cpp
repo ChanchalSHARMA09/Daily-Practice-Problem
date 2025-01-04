@@ -9,5 +9,17 @@ Learning:
  
 // Practice:
 
-// CP Problem 1 : Reverse an array.
+// CP Problem 1 : print  an array.
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[5];
+    for(int ix=0;ix<4;ix++){
+        cin>>arr[ix];
+    }
+    for(int ix=0;ix<4;ix++){
+        cout<<arr[ix]<<" ";
+    }
+}
+
 
