@@ -8,5 +8,21 @@ Learning:
 
 // Practice:
 
-// CP Problem 1 : Check if a string is a palindrome.
+// CP Problem 1 : linear search.
+
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[5]={1,4,6,9,0};
+  int key=9;
+  int end=-1;
+  for(int i=0;i<5;i++){
+  if(arr[i]==key){
+    end=arr[i];
+    break;
+}
+  }
+  cout<<end;
+
+}
 

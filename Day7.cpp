@@ -6,3 +6,10 @@
 2) Solve 3 mixed problems from beginner contests (Codeforces/CodeChef).
 3) Reflect on weak areas and revisit concepts if needed.
 */
+
+
+	
+	
+	
+
+}
